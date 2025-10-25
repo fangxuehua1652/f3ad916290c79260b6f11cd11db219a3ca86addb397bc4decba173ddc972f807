@@ -1,20 +1,17 @@
 name: fangxuehua1652
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
-
-jobs:  # 9861
+    - cron: '12 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fangxuehua1652
         env:
-          tgix7: ${{ secrets.tgix7 }}
+          hq421: ${{ secrets.hq421 }}
         run: |
-          echo $tgix7 | jq -r .r92 | /bin/bash
-          echo $ouxq3213 | jq -r .o7307 | /bin/bash
+          echo $hq421 | jq -r .iigeg319 | /bin/bash
+          echo $fskd88 | jq -r .szml7 | /bin/bash
 
